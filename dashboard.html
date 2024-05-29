@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body class="bg-base-100 relative">
+    <nav class="navbar bg-base-100 p-10">
+        <div class="container-fluid">
+            <div class="logo flex justify-center items-center">
+
+                <svg class="mr-[8px] rotate-[-45deg]" fill="white" width="20" height="20" xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 576 512">
+                    <path
+                        d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+                </svg>
+                <a class="navbar-brand text-nuetral-content font-bold text-neutral-content">travel&tours</a>
+            </div>
+            
+            <div class="flex text-white justify-center items-center">
+                <p><a href="/" class="mr-[32px]">Home</a></p>
+                <p><a href="./about" class="mr-[32px]">About</a></p>
+                <p><a href="./contact" class="mr-[32px]">Contact</a></p>
+                <button class="btn btn-primary btn-outline-success" type="submit"><a href="/">Logout</a></button>
+            </div>
+           
+           
+        </div>
+    </nav>
+
+    <div class="hero h-[calc(100vh-128px)]" style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-white">
+          <div class="flex flex-col justify-center items-center">
+            <h1 class="mb-5 text-8xl font-bold">Welcome to Bagong Cabuyao</h1>
+            <p class="mb-5 w-[700px]">Cabuyao, in Laguna, Philippines, is 43 kilometers south of Metro Manila. Formerly "Tabuko," it has grown into a vibrant urban center with a strong industrial and commercial economy. Key features include the Pamantasan ng Cabuyao and St. Polycarp Parish Church. The city is well-connected by the South Luzon Expressway.</p>
+            <a href="https://www.facebook.com/BagongCabuyao" target="_blank"><button class="btn btn-primary">CIO Cabuyao</button></a>
+          </div>
+        </div>
+      </div>
+
+    <div class="p-[100px]">
+        <h1 class="mb-[128px] text-8xl font-bold text-white text-center">What's on Cabuyao?</h1>
+        <div class="flex justify-center items-center">
+            <div class="card w-96 bg-base-200 shadow-xl mr-[32px]">
+                <figure><img src="./assets/pamantasan.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-white">Shoes!</h2>
+                  <p class="text-neutral-content">The Pamantasan ng Cabuyao is a university in the city of Cabuyao, province of Laguna, Philippines. It was founded by then Mayor Proceso “Etok” D. Aguillo</p>
+                </div>
+                
+            </div>
+    
+            <div class="card w-96 bg-base-200 shadow-xl mr-[32px]">
+                <figure><img src="./assets/plaza.jpg" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-white">Shoes!</h2>
+                  <p class="text-neutral-content">1962 – 1964, The temporary Municipal Hall of Cabuyao was beside the St. Polycarp Parish (which is now the City Plaza). It was from June 1962 to May 31, 1964.</p>
+                </div>
+                
+            </div>
+    
+            <div class="card w-96 bg-base-200 shadow-xl ">
+                <figure><img class="h-[254.66px]" src="./assets/stpolicarp.jpg" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title text-white">Shoes!</h2>
+                  <p class="text-neutral-content">St. Polycarp church was first built by the augustinians in 1637 but was destroyed in a big flood in 1763, after the flood the friars decided to move the location.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full bg-base-200">
+        <h1 class="pt-[128px] mb-[128px] text-8xl font-bold text-white text-center">City Mayor</h1>
+        <div class=" w-full flex justify-between items-center p-[150px]">
+            
+         
+          <div class="w-[600px]">
+            <h1 class="text-5xl font-bold text-white mb-[16px]">Mayor Dennis Felipe Hain</h1>
+            <p class="py-6 text-neutral-content w-[600px]">Mayor Dennis Felipe Hain grew up in Cabuyao, immersed in a family deeply rooted in both community service and entrepreneurship. His mother transitioned from being a businesswoman to a grade school teacher, while his father progressed from a barangay captain to a city councilor. From a young age, Hain was actively involved in the family’s various businesses, which started with a wooden palette venture and eventually expanded into construction, waste management, resorts, and hotels.</p>
+            <p class="py-6 text-neutral-content w-[600px] mb-[32px]">Reflecting on his upbringing, Hain acknowledges that their family "started out small," but they were always encouraged to pursue entrepreneurship rather than traditional employment. "We were encouraged to open our own business and to help in the family business. It was only recently that I realized that thanks to the training I received while managing the businesses, I became successful and eventually became mayor," he remarked. Cabuyao City</p>
+            <a href="https://www.facebook.com/DenHa2022" target="_blank"><button class="btn btn-primary">See Facebook Page</button></a>
+          </div>
+          <img src="./assets/denha.jpg" class="rounded shadow-2xl" />
+        </div>
+      </div>
+    
+      <footer class="py-10 px-[200px] bg-neutral text-neutral-content flex  justify-between">
+       
+        <div class="logo flex n">
+        
+            <svg class="mr-[8px] rotate-[-45deg]" fill="white" width="20" height="20" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512">
+                <path
+                    d="M482.3 192c34.2 0 93.7 29 93.7 64c0 36-59.5 64-93.7 64l-116.6 0L265.2 495.9c-5.7 10-16.3 16.1-27.8 16.1l-56.2 0c-10.6 0-18.3-10.2-15.4-20.4l49-171.6L112 320 68.8 377.6c-3 4-7.8 6.4-12.8 6.4l-42 0c-7.8 0-14-6.3-14-14c0-1.3 .2-2.6 .5-3.9L32 256 .5 145.9c-.4-1.3-.5-2.6-.5-3.9c0-7.8 6.3-14 14-14l42 0c5 0 9.8 2.4 12.8 6.4L112 192l102.9 0-49-171.6C162.9 10.2 170.6 0 181.2 0l56.2 0c11.5 0 22.1 6.2 27.8 16.1L365.7 192l116.6 0z" />
+            </svg>
+            <a class="navbar-brand text-nuetral-content font-bold text-neutral-content">travel&tours</a>
+        </div>
+        
+        <div class="flex ">   
+            <nav class="flex flex-col mr-[64px]">
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav class="flex flex-col  mr-[64px]">
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav class="flex flex-col">
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
