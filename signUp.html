@@ -13,10 +13,14 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
-
+    <style>
+         input {
+            color: white !important;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar bg-base-100 p-10">
+    <nav class="navbar bg-neutral p-10">
         <div class="container-fluid">
             <div class="logo flex justify-center items-center">
 
@@ -30,8 +34,8 @@
             
             <div class="flex text-white justify-center items-center">
                 <p><a href="/" class="mr-[32px]">Home</a></p>
-                <p><a href="./about" class="mr-[32px]">About</a></p>
-                <p><a href="./contact" class="mr-[32px]">Contact</a></p>
+                <p><a href="#" class="mr-[32px]">About</a></p>
+                <p><a href="#" class="mr-[32px]">Contact</a></p>
                 <button class="btn btn-primary btn-outline-success" type="submit"><a href="/">Login</a></button>
             </div>
            
@@ -44,19 +48,19 @@
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="flex flex-col items-center justify-center">
             <h1 class="text-7xl font-bold text-white mb-[32px] ">Sign Up</h1>
-            <div class="card shrink-0 w-[600px] max-w-sm shadow-2xl bg-base-100">
+            <div class="bg-neutral  shrink-0 w-[600px] max-w-sm shadow-2xl bg-base-100">
                 <form class="card-body">
                     <div class="daisy-form-control">
                         <label class="label">
-                            <span class="label-text">Email</span>
+                            <span class="label-text text-white">Email</span>
                         </label>
-                        <input type="email" placeholder="email" class="input input-bordered w-full" required />
+                        <input type="email" placeholder="email" class="bg-[#445366] input input-bordered w-full" required />
                     </div>
                     <div class="daisy-form-control">
                         <label class="label">
-                            <span class="label-text">Password</span>
+                            <span class="label-text text-white">Password</span>
                         </label>
-                        <input type="password" placeholder="password" class="input input-bordered w-full" required />
+                        <input type="password" placeholder="password" class="bg-[#445366] input input-bordered w-full" required />
                         <label class="label">
        
                         </label>

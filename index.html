@@ -26,15 +26,17 @@
             background-position: center center;
         }
 
-     
+        input {
+            color: white !important;
+        }
     </style>
     <title>Document</title>
 </head>
 <body>
 
  
-    <nav class="navbar bg-base-100 p-10">
-        <div class="container-fluid">
+    <nav class="navbar bg-base-100 p-10 bg-neutral ">
+        <div class="container-fluid ">
             <div class="logo flex justify-center items-center">
 
                 <svg class="mr-[8px] rotate-[-45deg]" fill="white" width="20" height="20" xmlns="http://www.w3.org/2000/svg" 
@@ -47,8 +49,8 @@
             
             <div class="flex text-white justify-center items-center">
                 <p><a href="/" class="mr-[32px]">Home</a></p>
-                <p><a href="./about" class="mr-[32px]">About</a></p>
-                <p><a href="./contact" class="mr-[32px]">Contact</a></p>
+                <p><a href="#" class="mr-[32px]">About</a></p>
+                <p><a href="#" class="mr-[32px]">Contact</a></p>
                 <button class="btn btn-primary btn-outline-success" type="submit"><a href="./signUp.html">Sign Up</a></button>
             </div>
            
@@ -56,7 +58,7 @@
         </div>
     </nav>
 
-    <div class="flex space-between h-[calc(100vh-128px)] relative bg-base-200">
+    <div class="flex space-between h-[calc(100vh-128px)] relative bg-[#445366]">
         <div class="image-hero"></div>
         <div class="w-[700.471px] relative p-10 flex justify-center items-center">
             <div class="flex flex-col justify-center items-center flex justify-center items-center">
@@ -64,21 +66,21 @@
                 <p class="mb-[64px] text-neutral-content">Let's travel the world with ease!</p>
                 <div class="flex justify-center items-center flex-col lg:flex-row-reverse">
             
-                    <div class="card shrink-0 w-[600px] max-w-sm shadow-2xl bg-base-100">
+                    <div class="card shrink-0 w-[600px] max-w-sm shadow-2xl bg-neutral">
                         <form class="card-body">
                             <div class="daisy-form-control">
                                 <label class="label">
-                                    <span class="label-text">Email</span>
+                                    <span class="label-text text-white">Email</span>
                                 </label>
-                                <input type="email" placeholder="email" class="input input-bordered w-full" required />
+                                <input type="email" placeholder="email" class="bg-[#445366] input input-bordered w-full" required />
                             </div>
                             <div class="daisy-form-control">
                                 <label class="label">
-                                    <span class="label-text">Password</span>
+                                    <span class="label-text text-white">Password</span>
                                 </label>
-                                <input type="password" placeholder="password" class="input input-bordered w-full" required />
+                                <input type="password" placeholder="password" class="bg-[#445366] input input-bordered w-full" required />
                                 <label class="label">
-                                    <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                                    <a href="#" class="text-white label-text-alt link link-hover">Forgot password?</a>
                                 </label>
                             </div>
                             <div class="daisy-form-control mt-6 flex flex-col">
