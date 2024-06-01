@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,6 +15,21 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <style>
+        @media (max-width: 1599px) {
+            .denha-content {
+                justify-content: center !important;
+                align-items: center !important;
+            }
+            .denha-content > div{
+                margin-bottom: 64px;
+                text-align: center;
+            }
+
+    
+        }
+      
+    </style>
 
 </head>
 <body class="bg-neutral relative">
@@ -32,9 +47,9 @@
             
             <div class=" flex text-white justify-center items-center">
                 <p><a href="/" class="mr-[32px]">Home</a></p>
-                <p><a href="#" class="mr-[32px]">About</a></p>
-                <p><a href="#" class="mr-[32px]">Contact</a></p>
-                <button class="btn btn-primary btn-outline-success" type="submit"><a href="/">Logout</a></button>
+                <p><a href="./about.html" class="mr-[32px]">About</a></p>
+                <p><a href="./contact.html" class="mr-[32px]">Contact</a></p>
+                <a href="./signUp.html"> <button class="btn btn-primary btn-outline-success" type="submit">Sign Up</button></a>
             </div>
            
            
@@ -86,7 +101,7 @@
 
     <div class="w-full bg-neutral">
         <h1 class="pt-[128px] mb-[128px] text-8xl font-bold text-white text-center">City Mayor</h1>
-        <div class=" w-full flex justify-between items-center p-[150px]">
+        <div class="denha-content w-full flex justify-between items-center p-[150px] flex-wrap">
             
          
           <div class="w-[600px]">
@@ -95,7 +110,7 @@
             <p class="py-6 text-neutral-content w-[600px] mb-[32px]">Reflecting on his upbringing, Hain acknowledges that their family "started out small," but they were always encouraged to pursue entrepreneurship rather than traditional employment. "We were encouraged to open our own business and to help in the family business. It was only recently that I realized that thanks to the training I received while managing the businesses, I became successful and eventually became mayor," he remarked. Cabuyao City</p>
             <a href="https://www.facebook.com/DenHa2022" target="_blank"><button class="btn btn-primary">See Facebook Page</button></a>
           </div>
-          <img src="./assets/denha.jpg" class="rounded shadow-2xl" />
+          <img src="./assets/denha.jpg" class="rounded shadow-2xl" width="700px" height="700px"  />
         </div>
       </div>
     

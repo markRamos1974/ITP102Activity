@@ -12,7 +12,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
-
+    <title>Registration</title>
     <style>
          input {
             color: white !important;
@@ -34,9 +34,9 @@
             
             <div class="flex text-white justify-center items-center">
                 <p><a href="/" class="mr-[32px]">Home</a></p>
-                <p><a href="#" class="mr-[32px]">About</a></p>
-                <p><a href="#" class="mr-[32px]">Contact</a></p>
-                <button class="btn btn-primary btn-outline-success" type="submit"><a href="/">Login</a></button>
+                <p><a href="./about.html" class="mr-[32px]">About</a></p>
+                <p><a href="./contact.html" class="mr-[32px]">Contact</a></p>
+                <a href="./index.html"> <button class="btn btn-primary btn-outline-success" type="submit">Log In</button></a>
             </div>
            
            
@@ -44,9 +44,9 @@
     </nav>
 
 
-    <div class="hero h-[calc(100vh-128px)]" style="background-image: url(https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
-        <div class="hero-overlay bg-opacity-60"></div>
-        <div class="flex flex-col items-center justify-center">
+    <div class="hero h-fit" style="background-image: url(https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+        <div class="hero-overlay bg-opacity-60 "></div>
+        <div class="flex flex-col items-center justify-center p-10">
             <h1 class="text-7xl font-bold text-white mb-[32px] ">Sign Up</h1>
             <div class="bg-neutral  shrink-0 w-[600px] max-w-sm shadow-2xl bg-base-100">
                 <form class="card-body">
@@ -54,16 +54,126 @@
                         <label class="label">
                             <span class="label-text text-white">Email</span>
                         </label>
-                        <input type="email" placeholder="email" class="bg-[#445366] input input-bordered w-full" required />
+                        <input type="email" placeholder="Email" class="bg-[#445366] input input-bordered w-full" required />
                     </div>
                     <div class="daisy-form-control">
                         <label class="label">
                             <span class="label-text text-white">Password</span>
                         </label>
-                        <input type="password" placeholder="password" class="bg-[#445366] input input-bordered w-full" required />
+                        <input type="password" placeholder="Password" class="bg-[#445366] input input-bordered w-full" required />
+                     
+                    </div>
+                    <div class="daisy-form-control">
                         <label class="label">
-       
+                            <span class="label-text text-white">Address</span>
                         </label>
+                        <input type="text" placeholder="Address" class="bg-[#445366] input input-bordered w-full" required />
+                       
+                    </div>
+                    <div class="daisy-form-control">
+                        <label class="label">
+                            <span class="label-text text-white">Birthday</span>
+                        </label>
+                        <div class="flex">
+                            <select class="select select-bordered w-full max-w-xs text-neutral-content">
+                                <option disabled selected>Month</option>
+                                <option>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                              </select>
+
+                              <select class="select select-bordered w-full max-w-xs text-neutral-content">
+                                <option disabled selected>Day</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                                
+                              </select>
+                              <select class="select select-bordered w-full max-w-xs text-neutral-content">
+                                <option disabled selected>Year</option>
+                                <option>2024</option>
+                                <option>2023</option>
+                                <option>2022</option>
+                                <option>2021</option>
+                                <option>2020</option>
+                                <option>2019</option>
+                                <option>2018</option>
+                                <option>2017</option>
+                                <option>2016</option>
+                                <option>2015</option>
+                                <option>2014</option>
+                                <option>2013</option>
+                                <option>2012</option>
+                                <option>2011</option>
+                                <option>2010</option>
+                                <option>2009</option>
+                                <option>2008</option>
+                                <option>2007</option>
+                                <option>2006</option>
+                                <option>2005</option>
+                                <option>2004</option>
+                                <option>2003</option>
+                                <option>2002</option>
+                                <option>2001</option>
+                                <option>2000</option>
+                                <option>1999</option>
+                                <option>1998</option>
+                                <option>1997</option>
+                                <option>1996</option>
+                                <option>1995</option>
+                                <option>1994</option>
+                                <option>1993</option>
+                                <option>1992</option>
+                                <option>1991</option>
+                                <option>1990</option>
+                               
+                                
+                              </select>
+                        </div>
+                        <div class="daisy-form-control">
+                            <label class="label">
+                                <span class="label-text text-white">Contact No.</span>
+                            </label>
+                            <input type="text" placeholder="Contact No." class="bg-[#445366] input input-bordered w-full" required />
+                           
+                        </div>
                     </div>
                     <div class="daisy-form-control mt-6 flex flex-col">
                         <a href="./index.html"><button type="button" class="btn btn-primary mb-[8px] w-full">Register</button></a>
