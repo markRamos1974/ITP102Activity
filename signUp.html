@@ -33,7 +33,6 @@
             </div>
             
             <div class="flex text-white justify-center items-center">
-                <p><a href="/" class="mr-[32px]">Home</a></p>
                 <p><a href="./about.html" class="mr-[32px]">About</a></p>
                 <p><a href="./contact.html" class="mr-[32px]">Contact</a></p>
                 <a href="./index.html"> <button class="btn btn-primary btn-outline-success" type="submit">Log In</button></a>
@@ -54,20 +53,20 @@
                         <label class="label">
                             <span class="label-text text-white">Email</span>
                         </label>
-                        <input type="email" placeholder="Email" class="bg-[#445366] input input-bordered w-full" required />
+                        <input type="email" placeholder="Email" class="email-input bg-[#445366] input input-bordered w-full" required />
                     </div>
                     <div class="daisy-form-control">
                         <label class="label">
                             <span class="label-text text-white">Password</span>
                         </label>
-                        <input type="password" placeholder="Password" class="bg-[#445366] input input-bordered w-full" required />
+                        <input type="password" placeholder="Password" class="password-input bg-[#445366] input input-bordered w-full" required />
                      
                     </div>
                     <div class="daisy-form-control">
                         <label class="label">
                             <span class="label-text text-white">Address</span>
                         </label>
-                        <input type="text" placeholder="Address" class="bg-[#445366] input input-bordered w-full" required />
+                        <input type="text" placeholder="Address" class="address-input bg-[#445366] input input-bordered w-full" required />
                        
                     </div>
                     <div class="daisy-form-control">
@@ -75,7 +74,7 @@
                             <span class="label-text text-white">Birthday</span>
                         </label>
                         <div class="flex">
-                            <select class="select select-bordered w-full max-w-xs text-neutral-content">
+                            <select class="birth-month select select-bordered w-full max-w-xs text-neutral-content">
                                 <option disabled selected>Month</option>
                                 <option>January</option>
                                 <option>February</option>
@@ -91,7 +90,7 @@
                                 <option>December</option>
                               </select>
 
-                              <select class="select select-bordered w-full max-w-xs text-neutral-content">
+                              <select class="birth-day select select-bordered w-full max-w-xs text-neutral-content">
                                 <option disabled selected>Day</option>
                                 <option>1</option>
                                 <option>2</option>
@@ -126,7 +125,7 @@
                                 <option>31</option>
                                 
                               </select>
-                              <select class="select select-bordered w-full max-w-xs text-neutral-content">
+                              <select class="birth-year select select-bordered w-full max-w-xs text-neutral-content">
                                 <option disabled selected>Year</option>
                                 <option>2024</option>
                                 <option>2023</option>
@@ -171,12 +170,12 @@
                             <label class="label">
                                 <span class="label-text text-white">Contact No.</span>
                             </label>
-                            <input type="text" placeholder="Contact No." class="bg-[#445366] input input-bordered w-full" required />
+                            <input type="number" placeholder="Contact No." class="contact-number bg-[#445366] input input-bordered w-full" required />
                            
                         </div>
                     </div>
                     <div class="daisy-form-control mt-6 flex flex-col">
-                        <a href="./index.html"><button type="button" class="btn btn-primary mb-[8px] w-full">Register</button></a>
+                        <button type="submit" class="btn btn-primary mb-[8px] w-full register-button">Register</button>
                         <a href="./"><button type="button" class="btn btn-primary btn-outline w-full">Login</button></a>
                     </div>
                 </form>
@@ -220,5 +219,7 @@
             </nav>
         </div>
     </footer>
+
+    <script src="signUp.js"></script>
 </body>
 </html>

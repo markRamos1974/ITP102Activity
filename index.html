@@ -41,7 +41,6 @@
             </div>
             
             <div class="flex text-white justify-center items-center">
-                <p><a href="/" class="mr-[32px]">Home</a></p>
                 <p><a href="./about.html" class="mr-[32px]">About</a></p>
                 <p><a href="./contact.html" class="mr-[32px]">Contact</a></p>
                 <a href="./signUp.html"> <button class="btn btn-primary btn-outline-success" type="submit">Sign Up</button></a>
@@ -65,19 +64,17 @@
                                 <label class="label">
                                     <span class="label-text text-white">Email</span>
                                 </label>
-                                <input type="email" placeholder="email" class="bg-[#445366] input input-bordered w-full" required />
+                                <input type="email" placeholder="email" class="email-input bg-[#445366] input input-bordered w-full" required />
                             </div>
                             <div class="daisy-form-control">
                                 <label class="label">
                                     <span class="label-text text-white">Password</span>
                                 </label>
-                                <input type="password" placeholder="password" class="bg-[#445366] input input-bordered w-full" required />
-                                <label class="label">
-                                    <a href="#" class="text-white label-text-alt link link-hover">Forgot password?</a>
-                                </label>
+                                <input type="password" placeholder="password" class="password-input bg-[#445366] input input-bordered w-full" required />
+                
                             </div>
                             <div class="daisy-form-control mt-6 flex flex-col">
-                                <a href="./dashboard.html"><button type="button" class="btn btn-primary mb-[8px] w-full">Login</button></a>
+                                <button type="submit" class="login-button btn btn-primary mb-[8px] w-full">Login</button>
                                 <a href="./signUp.html"><button type="button" class="btn btn-primary btn-outline w-full">Sign Up</button></a>
                             </div>
                         </form>
@@ -145,5 +142,7 @@
             },
         }
     </script>
+
+    <script src="./login.js"></script>
 </body>
 </html>
